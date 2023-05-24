@@ -81,9 +81,7 @@ The policy query is added to the WHERE clause, or ON clause, on SELECT, UPDATE,
 DELETE and INSERT operations involving the specified constrained tables. Unless
 carefully designed and tested, policy queries can have a significant performance
 impact. Therefore, make sure to follow simple but important guidelines when
-developing an extensible data security policy. For more information, see the "Developing efficient
-extensible data security policies" section in [Developing Extensible Data Security Policies (White paper) [AX
-2012]](/dynamicsax-2012/appuser-itpro/developing-extensible-data-security-policies-white-paper).
+developing an extensible data security policy. 
 
 When two or more security policies apply, the intersection (not the union) of
 the records that are included by each policy are the only records that can be
@@ -99,9 +97,6 @@ chaining of restricted tables, table relations based on expressions and much
 more please refer to these resources:
 
 - [Create a simple security policy](create-simple-security-policy.md)
-
-- [Developing Extensible Data Security Policies (white paper) [AX
-2012]](/dynamicsax-2012/appuser-itpro/developing-extensible-data-security-policies-white-paper)
 
 - [Extensible Data Security examples – by Andre Arnaud De
 Calavon [blog]](https://dynamicspedia.com/tag/xds/)
